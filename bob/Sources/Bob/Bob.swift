@@ -15,12 +15,12 @@ enum Answers:String {
 
 func hey(_ inputStrin:String) -> String {
 
-    let onlyNumbers = CharacterSet.alphanumerics.subtracting(CharacterSet.letters)
-    let containsOnlyNumbers = !CharacterSet(charactersIn: inputStrin).subtracting(CharacterSet.punctuationCharacters.union(.whitespaces)).intersection(onlyNumbers).isEmpty
+//    let onlyNumbers = CharacterSet.alphanumerics.subtracting(CharacterSet.letters)
+//    let containsOnlyNumbers = !CharacterSet(charactersIn: inputStrin).subtracting(CharacterSet.punctuationCharacters.union(.whitespaces)).intersection(onlyNumbers).isEmpty
 
     if inputStrin.isEmpty || (inputStrin.split(separator: Character(" ")).isEmpty){
         return Answers.Fine.rawValue
-    } else if (inputStrin == inputStrin.uppercased() && !containsOnlyNumbers) {
+    } else if (inputStrin == inputStrin.uppercased()){// && !containsOnlyNumbers) {
         return Answers.chillout.rawValue
     } else if (inputStrin.hasSuffix(questionMark)){
         return Answers.sure.rawValue
