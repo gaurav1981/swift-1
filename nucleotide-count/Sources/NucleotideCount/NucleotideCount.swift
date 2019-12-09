@@ -28,3 +28,30 @@ struct DNA {
         self.strand = strand
     }
 }
+
+
+/**
+solution to check out
+ struct DNA {
+     let strand: String
+
+     init?(strand: String) {
+         guard Set(strand).isSubset(of: Set("ACGT"))
+             else { return nil }
+         self.strand = strand
+     }
+ }
+
+
+ extension DNA {
+
+     func count(_ value: String) -> Int {
+         let value = Character(value)
+         return strand.filter({ $0 == value }).count
+     }
+
+     func counts() -> [String: Int] {
+         return "ACGT".map(String.init).reduce(into: [:], { (d, s) in d[s] = count(s) })
+     }
+ }
+ */
