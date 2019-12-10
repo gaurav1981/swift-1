@@ -16,19 +16,19 @@ struct Raindrops {
 
     var sounds:String {
         var str = ""
-//        let factors = (1...num).filter{num % $0 == 0}
-        str = (1...num).filter{num % $0 == 0}.reduce(str) { (result, num) -> String in
-            switch num{
-            case 3:
-                str += pling
-            case 5:
-                str += plang
-            case 7:
-                str += plong
-            default:
-                break
+        (1...num).forEach {
+            if num % $0 == 0{
+                switch $0{
+                case 3:
+                    str += pling
+                case 5:
+                    str += plang
+                case 7:
+                    str += plong
+                default:
+                    break
+                }
             }
-            return str
         }
         return str.isEmpty ? "\(num)" : str
     }
