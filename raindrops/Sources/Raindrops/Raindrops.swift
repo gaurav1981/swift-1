@@ -16,8 +16,8 @@ struct Raindrops {
 
     var sounds:String {
         var str = ""
-        let factors = (1...num).filter{num % $0 == 0}
-        str = factors.reduce(str) { (result, num) -> String in
+//        let factors = (1...num).filter{num % $0 == 0}
+        str = (1...num).filter{num % $0 == 0}.reduce(str) { (result, num) -> String in
             switch num{
             case 3:
                 str += pling
