@@ -1,6 +1,6 @@
 //Solution goes in Sources
 public struct GradeSchool {
-    var roster = [Int:[String]]()
+    private(set) var roster = [Int:[String]]()
 
     mutating func addStudent(_ name:String,grade:Int){
         guard roster[grade] != nil else {
