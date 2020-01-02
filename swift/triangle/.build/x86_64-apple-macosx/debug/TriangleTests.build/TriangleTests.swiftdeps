@@ -1,0 +1,389 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "TriangleTests"
+provides-nominal:
+- "13TriangleTestsAAC"
+provides-member:
+- ["13TriangleTestsAAC", ""]
+provides-dynamic-lookup:
+- "testEquilateralTrianglesHaveEqualSides"
+- "testIsoscelesTrianglesHaveFirstAndLastSidesEqual"
+- "testIsoscelesTrianglesHaveInFactExactlyTwoSidesEqual"
+- "testIsoscelesTrianglesHaveLastTwoSidesEqual"
+- "testIsoscelesTrianglesHaveTwoFirstSidesEqual"
+- "testLargerEquilateralTrianglesAlsoHaveEqualSides"
+- "testScaleneTrianglesHaveNoEqualSides"
+- "testScaleneTrianglesHaveNoEqualSidesAtALargerScaleToo"
+- "testScaleneTrianglesHaveNoEqualSidesInDescendingOrderEither"
+- "testTrianglesViolatingTriangleInequalityAreIllegal"
+- "testTrianglesViolatingTriangleInequalityAreIllegal3"
+- "testTrianglesWithNegativeSidesAreIllegal"
+- "testTrianglesWithNoSizeAreIllegal"
+- "testVerySmallTrianglesAreLegal"
+depends-top-level:
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "String"
+- "StringLiteralType"
+- !private "Triangle"
+- "TriangleTests"
+- "Void"
+- !private "XCTAssertEqual"
+- "XCTestCase"
+depends-member:
+- !private ["s7CVarArgP", "Triangle"]
+- !private ["s7CVarArgP", "XCTAssertEqual"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "testEquilateralTrianglesHaveEqualSides"]
+- !private ["s7CVarArgP", "testIsoscelesTrianglesHaveFirstAndLastSidesEqual"]
+- !private ["s7CVarArgP", "testIsoscelesTrianglesHaveInFactExactlyTwoSidesEqual"]
+- !private ["s7CVarArgP", "testIsoscelesTrianglesHaveLastTwoSidesEqual"]
+- !private ["s7CVarArgP", "testIsoscelesTrianglesHaveTwoFirstSidesEqual"]
+- !private ["s7CVarArgP", "testLargerEquilateralTrianglesAlsoHaveEqualSides"]
+- !private ["s7CVarArgP", "testScaleneTrianglesHaveNoEqualSides"]
+- !private ["s7CVarArgP", "testScaleneTrianglesHaveNoEqualSidesAtALargerScaleToo"]
+- !private ["s7CVarArgP", "testScaleneTrianglesHaveNoEqualSidesInDescendingOrderEither"]
+- !private ["s7CVarArgP", "testTrianglesViolatingTriangleInequalityAreIllegal"]
+- !private ["s7CVarArgP", "testTrianglesViolatingTriangleInequalityAreIllegal3"]
+- !private ["s7CVarArgP", "testTrianglesWithNegativeSidesAreIllegal"]
+- !private ["s7CVarArgP", "testTrianglesWithNoSizeAreIllegal"]
+- !private ["s7CVarArgP", "testVerySmallTrianglesAreLegal"]
+- !private ["s7CVarArgP", "triangleKind"]
+- !private ["s28CustomDebugStringConvertibleP", "Triangle"]
+- !private ["s28CustomDebugStringConvertibleP", "XCTAssertEqual"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "testEquilateralTrianglesHaveEqualSides"]
+- !private ["s28CustomDebugStringConvertibleP", "testIsoscelesTrianglesHaveFirstAndLastSidesEqual"]
+- !private ["s28CustomDebugStringConvertibleP", "testIsoscelesTrianglesHaveInFactExactlyTwoSidesEqual"]
+- !private ["s28CustomDebugStringConvertibleP", "testIsoscelesTrianglesHaveLastTwoSidesEqual"]
+- !private ["s28CustomDebugStringConvertibleP", "testIsoscelesTrianglesHaveTwoFirstSidesEqual"]
+- !private ["s28CustomDebugStringConvertibleP", "testLargerEquilateralTrianglesAlsoHaveEqualSides"]
+- !private ["s28CustomDebugStringConvertibleP", "testScaleneTrianglesHaveNoEqualSides"]
+- !private ["s28CustomDebugStringConvertibleP", "testScaleneTrianglesHaveNoEqualSidesAtALargerScaleToo"]
+- !private ["s28CustomDebugStringConvertibleP", "testScaleneTrianglesHaveNoEqualSidesInDescendingOrderEither"]
+- !private ["s28CustomDebugStringConvertibleP", "testTrianglesViolatingTriangleInequalityAreIllegal"]
+- !private ["s28CustomDebugStringConvertibleP", "testTrianglesViolatingTriangleInequalityAreIllegal3"]
+- !private ["s28CustomDebugStringConvertibleP", "testTrianglesWithNegativeSidesAreIllegal"]
+- !private ["s28CustomDebugStringConvertibleP", "testTrianglesWithNoSizeAreIllegal"]
+- !private ["s28CustomDebugStringConvertibleP", "testVerySmallTrianglesAreLegal"]
+- !private ["s28CustomDebugStringConvertibleP", "triangleKind"]
+- !private ["s23CustomStringConvertibleP", "Triangle"]
+- !private ["s23CustomStringConvertibleP", "XCTAssertEqual"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "testEquilateralTrianglesHaveEqualSides"]
+- !private ["s23CustomStringConvertibleP", "testIsoscelesTrianglesHaveFirstAndLastSidesEqual"]
+- !private ["s23CustomStringConvertibleP", "testIsoscelesTrianglesHaveInFactExactlyTwoSidesEqual"]
+- !private ["s23CustomStringConvertibleP", "testIsoscelesTrianglesHaveLastTwoSidesEqual"]
+- !private ["s23CustomStringConvertibleP", "testIsoscelesTrianglesHaveTwoFirstSidesEqual"]
+- !private ["s23CustomStringConvertibleP", "testLargerEquilateralTrianglesAlsoHaveEqualSides"]
+- !private ["s23CustomStringConvertibleP", "testScaleneTrianglesHaveNoEqualSides"]
+- !private ["s23CustomStringConvertibleP", "testScaleneTrianglesHaveNoEqualSidesAtALargerScaleToo"]
+- !private ["s23CustomStringConvertibleP", "testScaleneTrianglesHaveNoEqualSidesInDescendingOrderEither"]
+- !private ["s23CustomStringConvertibleP", "testTrianglesViolatingTriangleInequalityAreIllegal"]
+- !private ["s23CustomStringConvertibleP", "testTrianglesViolatingTriangleInequalityAreIllegal3"]
+- !private ["s23CustomStringConvertibleP", "testTrianglesWithNegativeSidesAreIllegal"]
+- !private ["s23CustomStringConvertibleP", "testTrianglesWithNoSizeAreIllegal"]
+- !private ["s23CustomStringConvertibleP", "testVerySmallTrianglesAreLegal"]
+- !private ["s23CustomStringConvertibleP", "triangleKind"]
+- !private ["SQ", "Triangle"]
+- !private ["SQ", "XCTAssertEqual"]
+- ["SQ", ""]
+- !private ["SQ", "init"]
+- !private ["SQ", "init"]
+- !private ["SQ", "testEquilateralTrianglesHaveEqualSides"]
+- !private ["SQ", "testIsoscelesTrianglesHaveFirstAndLastSidesEqual"]
+- !private ["SQ", "testIsoscelesTrianglesHaveInFactExactlyTwoSidesEqual"]
+- !private ["SQ", "testIsoscelesTrianglesHaveLastTwoSidesEqual"]
+- !private ["SQ", "testIsoscelesTrianglesHaveTwoFirstSidesEqual"]
+- !private ["SQ", "testLargerEquilateralTrianglesAlsoHaveEqualSides"]
+- !private ["SQ", "testScaleneTrianglesHaveNoEqualSides"]
+- !private ["SQ", "testScaleneTrianglesHaveNoEqualSidesAtALargerScaleToo"]
+- !private ["SQ", "testScaleneTrianglesHaveNoEqualSidesInDescendingOrderEither"]
+- !private ["SQ", "testTrianglesViolatingTriangleInequalityAreIllegal"]
+- !private ["SQ", "testTrianglesViolatingTriangleInequalityAreIllegal3"]
+- !private ["SQ", "testTrianglesWithNegativeSidesAreIllegal"]
+- !private ["SQ", "testTrianglesWithNoSizeAreIllegal"]
+- !private ["SQ", "testVerySmallTrianglesAreLegal"]
+- !private ["SQ", "triangleKind"]
+- !private ["SH", "Triangle"]
+- !private ["SH", "XCTAssertEqual"]
+- ["SH", ""]
+- !private ["SH", "init"]
+- !private ["SH", "init"]
+- !private ["SH", "testEquilateralTrianglesHaveEqualSides"]
+- !private ["SH", "testIsoscelesTrianglesHaveFirstAndLastSidesEqual"]
+- !private ["SH", "testIsoscelesTrianglesHaveInFactExactlyTwoSidesEqual"]
+- !private ["SH", "testIsoscelesTrianglesHaveLastTwoSidesEqual"]
+- !private ["SH", "testIsoscelesTrianglesHaveTwoFirstSidesEqual"]
+- !private ["SH", "testLargerEquilateralTrianglesAlsoHaveEqualSides"]
+- !private ["SH", "testScaleneTrianglesHaveNoEqualSides"]
+- !private ["SH", "testScaleneTrianglesHaveNoEqualSidesAtALargerScaleToo"]
+- !private ["SH", "testScaleneTrianglesHaveNoEqualSidesInDescendingOrderEither"]
+- !private ["SH", "testTrianglesViolatingTriangleInequalityAreIllegal"]
+- !private ["SH", "testTrianglesViolatingTriangleInequalityAreIllegal3"]
+- !private ["SH", "testTrianglesWithNegativeSidesAreIllegal"]
+- !private ["SH", "testTrianglesWithNoSizeAreIllegal"]
+- !private ["SH", "testVerySmallTrianglesAreLegal"]
+- !private ["SH", "triangleKind"]
+- ["So8NSObjectC", "String"]
+- !private ["So8NSObjectC", "Triangle"]
+- ["So8NSObjectC", "TriangleTests"]
+- ["So8NSObjectC", "Void"]
+- !private ["So8NSObjectC", "XCTAssertEqual"]
+- ["So8NSObjectC", "allTests"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "testEquilateralTrianglesHaveEqualSides"]
+- ["So8NSObjectC", "testIsoscelesTrianglesHaveFirstAndLastSidesEqual"]
+- ["So8NSObjectC", "testIsoscelesTrianglesHaveInFactExactlyTwoSidesEqual"]
+- ["So8NSObjectC", "testIsoscelesTrianglesHaveLastTwoSidesEqual"]
+- ["So8NSObjectC", "testIsoscelesTrianglesHaveTwoFirstSidesEqual"]
+- ["So8NSObjectC", "testLargerEquilateralTrianglesAlsoHaveEqualSides"]
+- ["So8NSObjectC", "testScaleneTrianglesHaveNoEqualSides"]
+- ["So8NSObjectC", "testScaleneTrianglesHaveNoEqualSidesAtALargerScaleToo"]
+- ["So8NSObjectC", "testScaleneTrianglesHaveNoEqualSidesInDescendingOrderEither"]
+- ["So8NSObjectC", "testTrianglesViolatingTriangleInequalityAreIllegal"]
+- ["So8NSObjectC", "testTrianglesViolatingTriangleInequalityAreIllegal3"]
+- ["So8NSObjectC", "testTrianglesWithNegativeSidesAreIllegal"]
+- ["So8NSObjectC", "testTrianglesWithNoSizeAreIllegal"]
+- ["So8NSObjectC", "testVerySmallTrianglesAreLegal"]
+- ["So8NSObjectC", "triangleKind"]
+- !private ["So8NSObjectP", "Triangle"]
+- !private ["So8NSObjectP", "XCTAssertEqual"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "testEquilateralTrianglesHaveEqualSides"]
+- !private ["So8NSObjectP", "testIsoscelesTrianglesHaveFirstAndLastSidesEqual"]
+- !private ["So8NSObjectP", "testIsoscelesTrianglesHaveInFactExactlyTwoSidesEqual"]
+- !private ["So8NSObjectP", "testIsoscelesTrianglesHaveLastTwoSidesEqual"]
+- !private ["So8NSObjectP", "testIsoscelesTrianglesHaveTwoFirstSidesEqual"]
+- !private ["So8NSObjectP", "testLargerEquilateralTrianglesAlsoHaveEqualSides"]
+- !private ["So8NSObjectP", "testScaleneTrianglesHaveNoEqualSides"]
+- !private ["So8NSObjectP", "testScaleneTrianglesHaveNoEqualSidesAtALargerScaleToo"]
+- !private ["So8NSObjectP", "testScaleneTrianglesHaveNoEqualSidesInDescendingOrderEither"]
+- !private ["So8NSObjectP", "testTrianglesViolatingTriangleInequalityAreIllegal"]
+- !private ["So8NSObjectP", "testTrianglesViolatingTriangleInequalityAreIllegal3"]
+- !private ["So8NSObjectP", "testTrianglesWithNegativeSidesAreIllegal"]
+- !private ["So8NSObjectP", "testTrianglesWithNoSizeAreIllegal"]
+- !private ["So8NSObjectP", "testVerySmallTrianglesAreLegal"]
+- !private ["So8NSObjectP", "triangleKind"]
+- !private ["8TriangleAAV", "init"]
+- !private ["8TriangleAAV", "kind"]
+- ["13TriangleTestsAAC", "String"]
+- !private ["13TriangleTestsAAC", "Triangle"]
+- ["13TriangleTestsAAC", "TriangleTests"]
+- ["13TriangleTestsAAC", "Void"]
+- !private ["13TriangleTestsAAC", "XCTAssertEqual"]
+- ["13TriangleTestsAAC", "allTests"]
+- ["13TriangleTestsAAC", "deinit"]
+- ["13TriangleTestsAAC", "init"]
+- ["13TriangleTestsAAC", "testEquilateralTrianglesHaveEqualSides"]
+- ["13TriangleTestsAAC", "testIsoscelesTrianglesHaveFirstAndLastSidesEqual"]
+- ["13TriangleTestsAAC", "testIsoscelesTrianglesHaveInFactExactlyTwoSidesEqual"]
+- ["13TriangleTestsAAC", "testIsoscelesTrianglesHaveLastTwoSidesEqual"]
+- ["13TriangleTestsAAC", "testIsoscelesTrianglesHaveTwoFirstSidesEqual"]
+- ["13TriangleTestsAAC", "testLargerEquilateralTrianglesAlsoHaveEqualSides"]
+- ["13TriangleTestsAAC", "testScaleneTrianglesHaveNoEqualSides"]
+- ["13TriangleTestsAAC", "testScaleneTrianglesHaveNoEqualSidesAtALargerScaleToo"]
+- ["13TriangleTestsAAC", "testScaleneTrianglesHaveNoEqualSidesInDescendingOrderEither"]
+- ["13TriangleTestsAAC", "testTrianglesViolatingTriangleInequalityAreIllegal"]
+- ["13TriangleTestsAAC", "testTrianglesViolatingTriangleInequalityAreIllegal3"]
+- ["13TriangleTestsAAC", "testTrianglesWithNegativeSidesAreIllegal"]
+- ["13TriangleTestsAAC", "testTrianglesWithNoSizeAreIllegal"]
+- ["13TriangleTestsAAC", "testVerySmallTrianglesAreLegal"]
+- ["13TriangleTestsAAC", "triangleKind"]
+- !private ["So11XCTActivityP", "Triangle"]
+- !private ["So11XCTActivityP", "XCTAssertEqual"]
+- ["So11XCTActivityP", ""]
+- !private ["So11XCTActivityP", "init"]
+- !private ["So11XCTActivityP", "init"]
+- !private ["So11XCTActivityP", "testEquilateralTrianglesHaveEqualSides"]
+- !private ["So11XCTActivityP", "testIsoscelesTrianglesHaveFirstAndLastSidesEqual"]
+- !private ["So11XCTActivityP", "testIsoscelesTrianglesHaveInFactExactlyTwoSidesEqual"]
+- !private ["So11XCTActivityP", "testIsoscelesTrianglesHaveLastTwoSidesEqual"]
+- !private ["So11XCTActivityP", "testIsoscelesTrianglesHaveTwoFirstSidesEqual"]
+- !private ["So11XCTActivityP", "testLargerEquilateralTrianglesAlsoHaveEqualSides"]
+- !private ["So11XCTActivityP", "testScaleneTrianglesHaveNoEqualSides"]
+- !private ["So11XCTActivityP", "testScaleneTrianglesHaveNoEqualSidesAtALargerScaleToo"]
+- !private ["So11XCTActivityP", "testScaleneTrianglesHaveNoEqualSidesInDescendingOrderEither"]
+- !private ["So11XCTActivityP", "testTrianglesViolatingTriangleInequalityAreIllegal"]
+- !private ["So11XCTActivityP", "testTrianglesViolatingTriangleInequalityAreIllegal3"]
+- !private ["So11XCTActivityP", "testTrianglesWithNegativeSidesAreIllegal"]
+- !private ["So11XCTActivityP", "testTrianglesWithNoSizeAreIllegal"]
+- !private ["So11XCTActivityP", "testVerySmallTrianglesAreLegal"]
+- !private ["So11XCTActivityP", "triangleKind"]
+- !private ["So17XCTWaiterDelegateP", "Triangle"]
+- !private ["So17XCTWaiterDelegateP", "XCTAssertEqual"]
+- ["So17XCTWaiterDelegateP", ""]
+- !private ["So17XCTWaiterDelegateP", "init"]
+- !private ["So17XCTWaiterDelegateP", "init"]
+- !private ["So17XCTWaiterDelegateP", "testEquilateralTrianglesHaveEqualSides"]
+- !private ["So17XCTWaiterDelegateP", "testIsoscelesTrianglesHaveFirstAndLastSidesEqual"]
+- !private ["So17XCTWaiterDelegateP", "testIsoscelesTrianglesHaveInFactExactlyTwoSidesEqual"]
+- !private ["So17XCTWaiterDelegateP", "testIsoscelesTrianglesHaveLastTwoSidesEqual"]
+- !private ["So17XCTWaiterDelegateP", "testIsoscelesTrianglesHaveTwoFirstSidesEqual"]
+- !private ["So17XCTWaiterDelegateP", "testLargerEquilateralTrianglesAlsoHaveEqualSides"]
+- !private ["So17XCTWaiterDelegateP", "testScaleneTrianglesHaveNoEqualSides"]
+- !private ["So17XCTWaiterDelegateP", "testScaleneTrianglesHaveNoEqualSidesAtALargerScaleToo"]
+- !private ["So17XCTWaiterDelegateP", "testScaleneTrianglesHaveNoEqualSidesInDescendingOrderEither"]
+- !private ["So17XCTWaiterDelegateP", "testTrianglesViolatingTriangleInequalityAreIllegal"]
+- !private ["So17XCTWaiterDelegateP", "testTrianglesViolatingTriangleInequalityAreIllegal3"]
+- !private ["So17XCTWaiterDelegateP", "testTrianglesWithNegativeSidesAreIllegal"]
+- !private ["So17XCTWaiterDelegateP", "testTrianglesWithNoSizeAreIllegal"]
+- !private ["So17XCTWaiterDelegateP", "testVerySmallTrianglesAreLegal"]
+- !private ["So17XCTWaiterDelegateP", "triangleKind"]
+- ["So6XCTestC", "String"]
+- !private ["So6XCTestC", "Triangle"]
+- ["So6XCTestC", "TriangleTests"]
+- ["So6XCTestC", "Void"]
+- !private ["So6XCTestC", "XCTAssertEqual"]
+- ["So6XCTestC", "allTests"]
+- ["So6XCTestC", "init"]
+- !private ["So6XCTestC", "init"]
+- ["So6XCTestC", "testEquilateralTrianglesHaveEqualSides"]
+- ["So6XCTestC", "testIsoscelesTrianglesHaveFirstAndLastSidesEqual"]
+- ["So6XCTestC", "testIsoscelesTrianglesHaveInFactExactlyTwoSidesEqual"]
+- ["So6XCTestC", "testIsoscelesTrianglesHaveLastTwoSidesEqual"]
+- ["So6XCTestC", "testIsoscelesTrianglesHaveTwoFirstSidesEqual"]
+- ["So6XCTestC", "testLargerEquilateralTrianglesAlsoHaveEqualSides"]
+- ["So6XCTestC", "testScaleneTrianglesHaveNoEqualSides"]
+- ["So6XCTestC", "testScaleneTrianglesHaveNoEqualSidesAtALargerScaleToo"]
+- ["So6XCTestC", "testScaleneTrianglesHaveNoEqualSidesInDescendingOrderEither"]
+- ["So6XCTestC", "testTrianglesViolatingTriangleInequalityAreIllegal"]
+- ["So6XCTestC", "testTrianglesViolatingTriangleInequalityAreIllegal3"]
+- ["So6XCTestC", "testTrianglesWithNegativeSidesAreIllegal"]
+- ["So6XCTestC", "testTrianglesWithNoSizeAreIllegal"]
+- ["So6XCTestC", "testVerySmallTrianglesAreLegal"]
+- ["So6XCTestC", "triangleKind"]
+- ["So10XCTestCaseC", "String"]
+- !private ["So10XCTestCaseC", "Triangle"]
+- ["So10XCTestCaseC", "TriangleTests"]
+- ["So10XCTestCaseC", "Void"]
+- !private ["So10XCTestCaseC", "XCTAssertEqual"]
+- ["So10XCTestCaseC", ""]
+- ["So10XCTestCaseC", "allTests"]
+- ["So10XCTestCaseC", "init"]
+- !private ["So10XCTestCaseC", "init"]
+- ["So10XCTestCaseC", "testEquilateralTrianglesHaveEqualSides"]
+- ["So10XCTestCaseC", "testIsoscelesTrianglesHaveFirstAndLastSidesEqual"]
+- ["So10XCTestCaseC", "testIsoscelesTrianglesHaveInFactExactlyTwoSidesEqual"]
+- ["So10XCTestCaseC", "testIsoscelesTrianglesHaveLastTwoSidesEqual"]
+- ["So10XCTestCaseC", "testIsoscelesTrianglesHaveTwoFirstSidesEqual"]
+- ["So10XCTestCaseC", "testLargerEquilateralTrianglesAlsoHaveEqualSides"]
+- ["So10XCTestCaseC", "testScaleneTrianglesHaveNoEqualSides"]
+- ["So10XCTestCaseC", "testScaleneTrianglesHaveNoEqualSidesAtALargerScaleToo"]
+- ["So10XCTestCaseC", "testScaleneTrianglesHaveNoEqualSidesInDescendingOrderEither"]
+- ["So10XCTestCaseC", "testTrianglesViolatingTriangleInequalityAreIllegal"]
+- ["So10XCTestCaseC", "testTrianglesViolatingTriangleInequalityAreIllegal3"]
+- ["So10XCTestCaseC", "testTrianglesWithNegativeSidesAreIllegal"]
+- ["So10XCTestCaseC", "testTrianglesWithNoSizeAreIllegal"]
+- ["So10XCTestCaseC", "testVerySmallTrianglesAreLegal"]
+- ["So10XCTestCaseC", "triangleKind"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Triangle"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "XCTAssertEqual"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "testEquilateralTrianglesHaveEqualSides"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "testIsoscelesTrianglesHaveFirstAndLastSidesEqual"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "testIsoscelesTrianglesHaveInFactExactlyTwoSidesEqual"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "testIsoscelesTrianglesHaveLastTwoSidesEqual"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "testIsoscelesTrianglesHaveTwoFirstSidesEqual"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "testLargerEquilateralTrianglesAlsoHaveEqualSides"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "testScaleneTrianglesHaveNoEqualSides"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "testScaleneTrianglesHaveNoEqualSidesAtALargerScaleToo"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "testScaleneTrianglesHaveNoEqualSidesInDescendingOrderEither"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "testTrianglesViolatingTriangleInequalityAreIllegal"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "testTrianglesViolatingTriangleInequalityAreIllegal3"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "testTrianglesWithNegativeSidesAreIllegal"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "testTrianglesWithNoSizeAreIllegal"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "testVerySmallTrianglesAreLegal"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "triangleKind"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Triangle"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "XCTAssertEqual"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "testEquilateralTrianglesHaveEqualSides"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "testIsoscelesTrianglesHaveFirstAndLastSidesEqual"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "testIsoscelesTrianglesHaveInFactExactlyTwoSidesEqual"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "testIsoscelesTrianglesHaveLastTwoSidesEqual"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "testIsoscelesTrianglesHaveTwoFirstSidesEqual"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "testLargerEquilateralTrianglesAlsoHaveEqualSides"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "testScaleneTrianglesHaveNoEqualSides"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "testScaleneTrianglesHaveNoEqualSidesAtALargerScaleToo"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "testScaleneTrianglesHaveNoEqualSidesInDescendingOrderEither"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "testTrianglesViolatingTriangleInequalityAreIllegal"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "testTrianglesViolatingTriangleInequalityAreIllegal3"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "testTrianglesWithNegativeSidesAreIllegal"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "testTrianglesWithNoSizeAreIllegal"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "testVerySmallTrianglesAreLegal"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "triangleKind"]
+depends-nominal:
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "SQ"
+- "SH"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "8TriangleAAV"
+- "13TriangleTestsAAC"
+- "So11XCTActivityP"
+- "So17XCTWaiterDelegateP"
+- "So6XCTestC"
+- "So10XCTestCaseC"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/Swift.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/SwiftOnoneSupport.swiftmodule/x86_64.swiftinterface"
+- "/Users/gauravgupta/GITHUB/exercsim-swift/swift/triangle/.build/x86_64-apple-macosx/debug/Triangle.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreData.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Metal.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/AppKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/shims/ThreadLocalStorage.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/shims/SwiftStddef.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/shims/AssertionReporting.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/shims/KeyPath.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/shims/SwiftStdbool.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/shims/System.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/shims/Random.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/shims/RuntimeStubs.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/shims/LibcShims.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/shims/UnicodeShims.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/shims/RuntimeShims.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/shims/FoundationShims.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/shims/CoreFoundationShims.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/shims/GlobalObjects.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/shims/HeapObject.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/shims/Target.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/shims/SwiftStdint.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/shims/RefCount.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/shims/Visibility.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/shims/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTest.apinotes"
+interface-hash: "3587f2832e61b89e937adbb2482517be"

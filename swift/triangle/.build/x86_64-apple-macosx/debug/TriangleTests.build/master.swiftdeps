@@ -1,0 +1,5 @@
+version: "Apple Swift version 5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)"
+options: "714567d076551fc6fe94c31d69b807d6"
+build_time: [1577981019, 765042000]
+inputs:
+  "/Users/gauravgupta/GITHUB/exercsim-swift/swift/triangle/Tests/TriangleTests/TriangleTests.swift": [1577975587, 247226447]

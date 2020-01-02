@@ -1,0 +1,65 @@
+client:
+  name: basic
+tools: {}
+targets:
+  "main": ["/Users/gauravgupta/GITHUB/exercsim-swift/swift/triangle/.build/x86_64-apple-macosx/debug/Triangle.swiftmodule","<Triangle-debug.module>"]
+  "test": ["/Users/gauravgupta/GITHUB/exercsim-swift/swift/triangle/.build/x86_64-apple-macosx/debug/Triangle.swiftmodule","/Users/gauravgupta/GITHUB/exercsim-swift/swift/triangle/.build/x86_64-apple-macosx/debug/TrianglePackageTests.xctest/Contents/MacOS/TrianglePackageTests","/Users/gauravgupta/GITHUB/exercsim-swift/swift/triangle/.build/x86_64-apple-macosx/debug/TriangleTests.swiftmodule","<Triangle-debug.module>","<TrianglePackageTests-debug.test>","<TriangleTests-debug.module>"]
+  "Triangle-debug.module": ["/Users/gauravgupta/GITHUB/exercsim-swift/swift/triangle/.build/x86_64-apple-macosx/debug/Triangle.swiftmodule","<Triangle-debug.module>"]
+  "TrianglePackageTests-debug.test": ["/Users/gauravgupta/GITHUB/exercsim-swift/swift/triangle/.build/x86_64-apple-macosx/debug/TrianglePackageTests.xctest/Contents/MacOS/TrianglePackageTests","<TrianglePackageTests-debug.test>"]
+  "TriangleTests-debug.module": ["/Users/gauravgupta/GITHUB/exercsim-swift/swift/triangle/.build/x86_64-apple-macosx/debug/TriangleTests.swiftmodule","<TriangleTests-debug.module>"]
+default: "main"
+commands: 
+  "<C.Triangle-debug.module>":
+    tool: phony
+    inputs: ["/Users/gauravgupta/GITHUB/exercsim-swift/swift/triangle/.build/x86_64-apple-macosx/debug/Triangle.swiftmodule"]
+    outputs: ["<Triangle-debug.module>"]
+
+  "<C.TrianglePackageTests-debug.test>":
+    tool: phony
+    inputs: ["/Users/gauravgupta/GITHUB/exercsim-swift/swift/triangle/.build/x86_64-apple-macosx/debug/TrianglePackageTests.xctest/Contents/MacOS/TrianglePackageTests"]
+    outputs: ["<TrianglePackageTests-debug.test>"]
+
+  "<C.TriangleTests-debug.module>":
+    tool: phony
+    inputs: ["/Users/gauravgupta/GITHUB/exercsim-swift/swift/triangle/.build/x86_64-apple-macosx/debug/TriangleTests.swiftmodule"]
+    outputs: ["<TriangleTests-debug.module>"]
+
+  "C.Triangle-debug.module":
+    tool: swift-compiler
+    executable: "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    module-name: "Triangle"
+    module-output-path: "/Users/gauravgupta/GITHUB/exercsim-swift/swift/triangle/.build/x86_64-apple-macosx/debug/Triangle.swiftmodule"
+    inputs: ["/Users/gauravgupta/GITHUB/exercsim-swift/swift/triangle/Sources/Triangle/Triangle.swift"]
+    outputs: ["/Users/gauravgupta/GITHUB/exercsim-swift/swift/triangle/.build/x86_64-apple-macosx/debug/Triangle.build/Triangle.swift.o","/Users/gauravgupta/GITHUB/exercsim-swift/swift/triangle/.build/x86_64-apple-macosx/debug/Triangle.swiftmodule"]
+    import-paths: ["/Users/gauravgupta/GITHUB/exercsim-swift/swift/triangle/.build/x86_64-apple-macosx/debug"]
+    temps-path: "/Users/gauravgupta/GITHUB/exercsim-swift/swift/triangle/.build/x86_64-apple-macosx/debug/Triangle.build"
+    objects: ["/Users/gauravgupta/GITHUB/exercsim-swift/swift/triangle/.build/x86_64-apple-macosx/debug/Triangle.build/Triangle.swift.o"]
+    other-args: ["-target","x86_64-apple-macosx10.10","-swift-version","4.2","-enable-batch-mode","-index-store-path","/Users/gauravgupta/GITHUB/exercsim-swift/swift/triangle/.build/x86_64-apple-macosx/debug/index/store","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-Onone","-g","-enable-testing","-j4","-DSWIFT_PACKAGE","-DDEBUG","-module-cache-path","/Users/gauravgupta/GITHUB/exercsim-swift/swift/triangle/.build/x86_64-apple-macosx/debug/ModuleCache","-parseable-output","-Xfrontend","-color-diagnostics"]
+    sources: ["/Users/gauravgupta/GITHUB/exercsim-swift/swift/triangle/Sources/Triangle/Triangle.swift"]
+    is-library: true
+    enable-whole-module-optimization: false
+    num-threads: "4"
+
+  "C.TrianglePackageTests-debug.test":
+    tool: shell
+    description: "Linking ./.build/x86_64-apple-macosx/debug/TrianglePackageTests.xctest/Contents/MacOS/TrianglePackageTests"
+    inputs: ["/Users/gauravgupta/GITHUB/exercsim-swift/swift/triangle/.build/x86_64-apple-macosx/debug/Triangle.build/Triangle.swift.o","/Users/gauravgupta/GITHUB/exercsim-swift/swift/triangle/.build/x86_64-apple-macosx/debug/TriangleTests.build/TriangleTests.swift.o"]
+    outputs: ["/Users/gauravgupta/GITHUB/exercsim-swift/swift/triangle/.build/x86_64-apple-macosx/debug/TrianglePackageTests.xctest/Contents/MacOS/TrianglePackageTests"]
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-g","-L","/Users/gauravgupta/GITHUB/exercsim-swift/swift/triangle/.build/x86_64-apple-macosx/debug","-o","/Users/gauravgupta/GITHUB/exercsim-swift/swift/triangle/.build/x86_64-apple-macosx/debug/TrianglePackageTests.xctest/Contents/MacOS/TrianglePackageTests","-module-name","TrianglePackageTests","-Xlinker","-bundle","@/Users/gauravgupta/GITHUB/exercsim-swift/swift/triangle/.build/x86_64-apple-macosx/debug/TrianglePackageTests.product/Objects.LinkFileList","-Xlinker","-rpath","-Xlinker","/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx","-target","x86_64-apple-macosx10.10","-L","/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib"]
+
+  "C.TriangleTests-debug.module":
+    tool: swift-compiler
+    executable: "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    module-name: "TriangleTests"
+    module-output-path: "/Users/gauravgupta/GITHUB/exercsim-swift/swift/triangle/.build/x86_64-apple-macosx/debug/TriangleTests.swiftmodule"
+    inputs: ["/Users/gauravgupta/GITHUB/exercsim-swift/swift/triangle/.build/x86_64-apple-macosx/debug/Triangle.swiftmodule","/Users/gauravgupta/GITHUB/exercsim-swift/swift/triangle/Tests/TriangleTests/TriangleTests.swift"]
+    outputs: ["/Users/gauravgupta/GITHUB/exercsim-swift/swift/triangle/.build/x86_64-apple-macosx/debug/TriangleTests.build/TriangleTests.swift.o","/Users/gauravgupta/GITHUB/exercsim-swift/swift/triangle/.build/x86_64-apple-macosx/debug/TriangleTests.swiftmodule"]
+    import-paths: ["/Users/gauravgupta/GITHUB/exercsim-swift/swift/triangle/.build/x86_64-apple-macosx/debug"]
+    temps-path: "/Users/gauravgupta/GITHUB/exercsim-swift/swift/triangle/.build/x86_64-apple-macosx/debug/TriangleTests.build"
+    objects: ["/Users/gauravgupta/GITHUB/exercsim-swift/swift/triangle/.build/x86_64-apple-macosx/debug/TriangleTests.build/TriangleTests.swift.o"]
+    other-args: ["-target","x86_64-apple-macosx10.10","-swift-version","4.2","-enable-batch-mode","-index-store-path","/Users/gauravgupta/GITHUB/exercsim-swift/swift/triangle/.build/x86_64-apple-macosx/debug/index/store","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-Onone","-g","-enable-testing","-j4","-DSWIFT_PACKAGE","-DDEBUG","-module-cache-path","/Users/gauravgupta/GITHUB/exercsim-swift/swift/triangle/.build/x86_64-apple-macosx/debug/ModuleCache","-parseable-output","-Xfrontend","-color-diagnostics"]
+    sources: ["/Users/gauravgupta/GITHUB/exercsim-swift/swift/triangle/Tests/TriangleTests/TriangleTests.swift"]
+    is-library: true
+    enable-whole-module-optimization: false
+    num-threads: "4"
+

@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/gauravgupta/GITHUB/exercsim-swift/swift/triangle/.build/x86_64-apple-macosx/debug/TriangleTests.build/master.swiftdeps"
+  },
+  "/Users/gauravgupta/GITHUB/exercsim-swift/swift/triangle/Tests/TriangleTests/TriangleTests.swift": {
+    "dependencies": "/Users/gauravgupta/GITHUB/exercsim-swift/swift/triangle/.build/x86_64-apple-macosx/debug/TriangleTests.build/TriangleTests.d",
+    "object": "/Users/gauravgupta/GITHUB/exercsim-swift/swift/triangle/.build/x86_64-apple-macosx/debug/TriangleTests.build/TriangleTests.swift.o",
+    "swiftmodule": "/Users/gauravgupta/GITHUB/exercsim-swift/swift/triangle/.build/x86_64-apple-macosx/debug/TriangleTests.build/TriangleTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/gauravgupta/GITHUB/exercsim-swift/swift/triangle/.build/x86_64-apple-macosx/debug/TriangleTests.build/TriangleTests.swiftdeps"
+  }
+}

@@ -1,0 +1,264 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "triangleKind"
+- "Triangle"
+provides-nominal:
+- "8Triangle12triangleKindO"
+- "8TriangleAAV"
+provides-member:
+- ["8Triangle12triangleKindO", ""]
+- ["8TriangleAAV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- !private "&&"
+- !private "+"
+- "=="
+- !private ">="
+- "AssignmentPrecedence"
+- "Double"
+- !private "FloatLiteralType"
+- "Int"
+- !private "IntegerLiteralType"
+- "String"
+- "StringLiteralType"
+- "Triangle"
+- !private "_findStringSwitchCase"
+- "triangleKind"
+- !private "||"
+- !private "~="
+depends-member:
+- !private ["s18AdditiveArithmeticP", "init"]
+- !private ["s18AdditiveArithmeticP", "magnitude"]
+- !private ["s18AdditiveArithmeticP", "sign"]
+- !private ["s18AdditiveArithmeticP", "zero"]
+- !private ["SB", "init"]
+- !private ["SB", "magnitude"]
+- !private ["SB", "sign"]
+- !private ["SB", "zero"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "magnitude"]
+- !private ["s7CVarArgP", "sign"]
+- !private ["s7CVarArgP", "zero"]
+- !private ["SL", "init"]
+- !private ["SL", "magnitude"]
+- !private ["SL", "sign"]
+- !private ["SL", "zero"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "magnitude"]
+- !private ["s28CustomDebugStringConvertibleP", "sign"]
+- !private ["s28CustomDebugStringConvertibleP", "zero"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "magnitude"]
+- !private ["s17CustomReflectableP", "sign"]
+- !private ["s17CustomReflectableP", "zero"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "magnitude"]
+- !private ["s23CustomStringConvertibleP", "sign"]
+- !private ["s23CustomStringConvertibleP", "zero"]
+- !private ["Se", "init"]
+- !private ["Se", "magnitude"]
+- !private ["Se", "sign"]
+- !private ["Se", "zero"]
+- !private ["Sd", "init"]
+- !private ["Sd", "magnitude"]
+- !private ["Sd", "sign"]
+- !private ["Sd", "zero"]
+- !private ["SE", "init"]
+- !private ["SE", "magnitude"]
+- !private ["SE", "sign"]
+- !private ["SE", "zero"]
+- ["SQ", "=="]
+- !private ["SQ", "Equilateral"]
+- !private ["SQ", "ErrorKind"]
+- !private ["SQ", "Isosceles"]
+- ["SQ", "RawValue"]
+- !private ["SQ", "Scalene"]
+- ["SQ", ""]
+- ["SQ", "_Default_RawValue"]
+- !private ["SQ", "_findStringSwitchCase"]
+- ["SQ", "_rawHashValue"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "init"]
+- !private ["SQ", "magnitude"]
+- !private ["SQ", "plus"]
+- ["SQ", "rawValue"]
+- !private ["SQ", "sign"]
+- !private ["SQ", "zero"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s25ExpressibleByFloatLiteralP", "magnitude"]
+- !private ["s25ExpressibleByFloatLiteralP", "sign"]
+- !private ["s25ExpressibleByFloatLiteralP", "zero"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "magnitude"]
+- !private ["s27ExpressibleByIntegerLiteralP", "sign"]
+- !private ["s27ExpressibleByIntegerLiteralP", "zero"]
+- !private ["SF", "init"]
+- !private ["SF", "magnitude"]
+- !private ["SF", "sign"]
+- !private ["SF", "zero"]
+- !private ["s17FloatingPointSignO", "plus"]
+- ["SH", "=="]
+- !private ["SH", "Equilateral"]
+- !private ["SH", "ErrorKind"]
+- !private ["SH", "Isosceles"]
+- ["SH", "RawValue"]
+- !private ["SH", "Scalene"]
+- ["SH", ""]
+- ["SH", "_Default_RawValue"]
+- !private ["SH", "_findStringSwitchCase"]
+- ["SH", "_rawHashValue"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- !private ["SH", "magnitude"]
+- !private ["SH", "plus"]
+- ["SH", "rawValue"]
+- !private ["SH", "sign"]
+- !private ["SH", "zero"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "magnitude"]
+- !private ["s25LosslessStringConvertibleP", "sign"]
+- !private ["s25LosslessStringConvertibleP", "zero"]
+- !private ["Sj", "init"]
+- !private ["Sj", "magnitude"]
+- !private ["Sj", "sign"]
+- !private ["Sj", "zero"]
+- ["SY", "=="]
+- !private ["SY", "Equilateral"]
+- !private ["SY", "ErrorKind"]
+- !private ["SY", "Isosceles"]
+- ["SY", "RawValue"]
+- !private ["SY", "Scalene"]
+- ["SY", ""]
+- ["SY", "_Default_RawValue"]
+- !private ["SY", "_findStringSwitchCase"]
+- ["SY", "_rawHashValue"]
+- ["SY", "hash"]
+- ["SY", "hashValue"]
+- ["SY", "init"]
+- !private ["SY", "plus"]
+- ["SY", "rawValue"]
+- !private ["s10SIMDScalarP", "init"]
+- !private ["s10SIMDScalarP", "magnitude"]
+- !private ["s10SIMDScalarP", "sign"]
+- !private ["s10SIMDScalarP", "zero"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["s13SignedNumericP", "magnitude"]
+- !private ["s13SignedNumericP", "sign"]
+- !private ["s13SignedNumericP", "zero"]
+- !private ["Sx", "init"]
+- !private ["Sx", "magnitude"]
+- !private ["Sx", "sign"]
+- !private ["Sx", "zero"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "magnitude"]
+- !private ["s20TextOutputStreamableP", "sign"]
+- !private ["s20TextOutputStreamableP", "zero"]
+- ["8TriangleAAV", "Double"]
+- ["8TriangleAAV", "Int"]
+- ["8TriangleAAV", "String"]
+- ["8TriangleAAV", "_side1"]
+- ["8TriangleAAV", "_side2"]
+- ["8TriangleAAV", "_side3"]
+- ["8TriangleAAV", "init"]
+- ["8TriangleAAV", "kind"]
+- !private ["8TriangleAAV", "triangleKind"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s15_CVarArgAlignedP", "magnitude"]
+- !private ["s15_CVarArgAlignedP", "sign"]
+- !private ["s15_CVarArgAlignedP", "zero"]
+- !private ["s22_CVarArgPassedAsDoubleP", "init"]
+- !private ["s22_CVarArgPassedAsDoubleP", "magnitude"]
+- !private ["s22_CVarArgPassedAsDoubleP", "sign"]
+- !private ["s22_CVarArgPassedAsDoubleP", "zero"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "magnitude"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "sign"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "zero"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "magnitude"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "sign"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "zero"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "magnitude"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "sign"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "zero"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "magnitude"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "sign"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "zero"]
+- ["8Triangle12triangleKindO", "=="]
+- ["8Triangle12triangleKindO", "Equilateral"]
+- ["8Triangle12triangleKindO", "ErrorKind"]
+- ["8Triangle12triangleKindO", "Isosceles"]
+- ["8Triangle12triangleKindO", "RawValue"]
+- ["8Triangle12triangleKindO", "Scalene"]
+- ["8Triangle12triangleKindO", "_Default_RawValue"]
+- !private ["8Triangle12triangleKindO", "_findStringSwitchCase"]
+- ["8Triangle12triangleKindO", "_rawHashValue"]
+- ["8Triangle12triangleKindO", "deinit"]
+- ["8Triangle12triangleKindO", "hash"]
+- ["8Triangle12triangleKindO", "hashValue"]
+- ["8Triangle12triangleKindO", "init"]
+- ["8Triangle12triangleKindO", "rawValue"]
+depends-nominal:
+- !private "s18AdditiveArithmeticP"
+- !private "SB"
+- !private "s7CVarArgP"
+- !private "SL"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "Sd"
+- !private "SE"
+- "SQ"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "SF"
+- !private "s17FloatingPointSignO"
+- "SH"
+- !private "s25LosslessStringConvertibleP"
+- !private "Sj"
+- "SY"
+- !private "s10SIMDScalarP"
+- !private "s13SignedNumericP"
+- !private "Sx"
+- !private "s20TextOutputStreamableP"
+- "8TriangleAAV"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s33_ExpressibleByBuiltinFloatLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "8Triangle12triangleKindO"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/Swift.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/SwiftOnoneSupport.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/shims/ThreadLocalStorage.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/shims/SwiftStddef.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/shims/AssertionReporting.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/shims/KeyPath.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/shims/SwiftStdbool.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/shims/System.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/shims/Random.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/shims/RuntimeStubs.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/shims/LibcShims.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/shims/UnicodeShims.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/shims/RuntimeShims.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/shims/FoundationShims.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/shims/CoreFoundationShims.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/shims/GlobalObjects.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/shims/HeapObject.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/shims/Target.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/shims/SwiftStdint.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/shims/RefCount.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/shims/Visibility.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/shims/module.modulemap"
+interface-hash: "56f083f15a283761dce17826fc2137c3"

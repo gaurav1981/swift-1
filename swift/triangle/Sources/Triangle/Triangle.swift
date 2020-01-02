@@ -19,7 +19,9 @@ struct Triangle {
 
     var kind:String{
 
-        if !(_side1.magnitude.sign == .plus && _side2.magnitude.sign == .plus && _side3.magnitude.sign == .plus ) || (_side1 == .zero || _side2 == .zero || _side3 == .zero) {
+        if !(_side1.magnitude.sign == .plus && _side2.magnitude.sign == .plus && _side3.magnitude.sign == .plus ) ||
+            (_side1 == .zero || _side2 == .zero || _side3 == .zero) ||
+            !(_side1 + _side2 >= _side3 && _side2 + _side3 >= _side1 && _side3 + _side1 >= _side2){
             return triangleKind.ErrorKind.rawValue
         }
 //        case (-1,_,_),(_,-1,_),(_,_,-1),(0,0,0):
@@ -27,9 +29,9 @@ struct Triangle {
 //        default:
 //            break
 //        }
-        if !(_side1 + _side2 >= _side3 && _side2 + _side3 >= _side1 && _side3 + _side1 >= _side2) {
-                return triangleKind.ErrorKind.rawValue
-        }
+//        if !(_side1 + _side2 >= _side3 && _side2 + _side3 >= _side1 && _side3 + _side1 >= _side2) {
+//                return triangleKind.ErrorKind.rawValue
+//        }
         switch (_side1 == _side2,_side2 == _side3, _side3 == _side1) {
         case (true, true, true):
             return triangleKind.Equilateral.rawValue
@@ -40,3 +42,27 @@ struct Triangle {
             }
     }
 }
+
+
+/**
+
+ struct Triangle {
+     let triangleKind = (Equilateral:"Equilateral", Isosceles:"Isosceles", Scalene:"Scalene", ErrorKind:"ErrorKind")
+     let kind: String
+
+     init(_ a:Double, _ b:Double, _ c:Double){
+         let sortedLegs = [a, b, c].sorted()
+
+         switch (sortedLegs[0], sortedLegs[1], sortedLegs[2]) {
+             case (let a, let b, let c) where a == 0 || a + b <= c:
+                 kind = triangleKind.ErrorKind
+             case (let a, _, let c) where a == c:
+                 kind = triangleKind.Equilateral
+             case (let a, let b, let c) where b == c || b == a:
+                 kind = triangleKind.Isosceles
+             default:
+                 kind = triangleKind.Scalene
+         }
+     }
+ }
+ */
