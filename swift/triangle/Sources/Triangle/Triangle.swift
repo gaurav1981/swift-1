@@ -3,38 +3,40 @@
 enum triangleKind:String{ case Equilateral,Isosceles,Scalene,ErrorKind}
 
 struct Triangle {
-    var _side1:Int
-    var _side2:Int
-    var _side3:Int
+    var _side1:Double
+    var _side2:Double
+    var _side3:Double
 
     init(_ side1:Int,_ side2:Int,_ side3:Int) {
+        self.init(Double(side1),Double(side2),Double(side3))
+    }
+
+    init(_ side1:Double,_ side2:Double,_ side3:Double) {
         _side1 = side1
         _side2 = side2
         _side3 = side3
     }
 
-    init(_ side1:Double,_ side2:Double,_ side3:Double) {
-        self.init(Int(side1),Int(side2),Int(side3))
-    }
-
     var kind:String{
-        switch (_side1.signum(),_side2.signum(),_side3.signum()) {
-        case (-1,_,_),(_,-1,_),(_,_,-1),(0,0,0):
+
+        if !(_side1.magnitude.sign == .plus && _side2.magnitude.sign == .plus && _side3.magnitude.sign == .plus ) || (_side1 == .zero || _side2 == .zero || _side3 == .zero) {
             return triangleKind.ErrorKind.rawValue
-        default:
-            break
+        }
+//        case (-1,_,_),(_,-1,_),(_,_,-1),(0,0,0):
+//            return triangleKind.ErrorKind.rawValue
+//        default:
+//            break
+//        }
+        if !(_side1 + _side2 >= _side3 && _side2 + _side3 >= _side1 && _side3 + _side1 >= _side2) {
+                return triangleKind.ErrorKind.rawValue
         }
         switch (_side1 == _side2,_side2 == _side3, _side3 == _side1) {
         case (true, true, true):
             return triangleKind.Equilateral.rawValue
-        case (true, true,_):
-            return triangleKind.Isosceles.rawValue
-        case (true, _,true):
-            return triangleKind.Isosceles.rawValue
-        case (_,true, true):
+        case (true, _,_),(_,true,_),(_,_, true):
             return triangleKind.Isosceles.rawValue
         default:
             return triangleKind.Scalene.rawValue
-        }
+            }
     }
 }
